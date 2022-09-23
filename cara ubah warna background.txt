@@ -1,0 +1,15 @@
+kalo mau ubah warna backgrou ubah aja kode warna " #68f3f8, #67adf9, #6866fa, #b065fb, #fb63fd, #fe62b3, #ff6166
+
+di kode css bagian:
+body {
+    background: linear-gradient(45deg, #68f3f8, #67adf9, #6866fa, #b065fb, #fb63fd, #fe62b3, #ff6166);
+    background-size: 500% 500%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
